@@ -15,7 +15,7 @@ eg:
 
 func MinCoverSubarray(strs string, t string) string {
 	/*
-		滑动窗口
+		slide_windows
 		定义两个哈希表，一个是need，一个是window
 		need存储目标字符串t中，每个字符出现的次数
 		window存储每个窗口中，每个字符出现的次数

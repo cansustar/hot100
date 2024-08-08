@@ -1,4 +1,4 @@
-package 哈希
+package hash
 
 import (
 	"fmt"

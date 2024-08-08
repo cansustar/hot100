@@ -11,7 +11,7 @@ func slidingWindow(nums []int, k int) []int {
 	if k == 1 {
 		return nums
 	}
-	// 滑动窗口实际上就是某个数据结构+双指针
+	// 滑动窗口实际上就是某个数据结构+double_point
 	left, right := 0, 0
 	// 数据结构，用于存储窗口中的元素和相关信息
 	window := make(map[int]int)
