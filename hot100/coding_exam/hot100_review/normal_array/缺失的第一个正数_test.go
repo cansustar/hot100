@@ -1,4 +1,4 @@
-package 普通数组
+package normalarray
 
 import "testing"
 
